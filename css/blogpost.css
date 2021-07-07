@@ -240,8 +240,8 @@ h1, h2, h3, h4,  h5{
 }
 
 /*comments*/
-.comments{
-    
+.comments .section-title{
+    text-transform: capitalize;
 }
 
 .comment1{
@@ -269,6 +269,10 @@ h1, h2, h3, h4,  h5{
     color:var(--textgreycolor);
     font-weight: 400;
     margin-left: 20px;
+}
+
+.leave-reply .section-title{
+    text-transform: none;
 }
 
 .reply{
